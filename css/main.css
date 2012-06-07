@@ -1,0 +1,93 @@
+body {
+	width: 790px;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+#wrapper {
+	width: 790px;
+	background-color: white;
+}
+
+/*-------------------------------Navigation-------------------------------*/
+
+header {
+	background-color: black;
+	width: 790px;
+	height: 50px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav {
+	background-color: black;
+	width: 240px;
+	float: left;
+	overflow: hidden;
+}
+
+h1 {
+	float: left;
+	width: 540px;
+	height: 10px;
+	margin: 7px 5px;
+	font-family: 'Titan One', cursive, serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: white;
+}
+
+ol {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+ol li {
+	width: 120px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	background-color: black;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;	
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: silver;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+}
+
+a:active {
+	color: white;
+	background-color: silver;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------MainContent-------------------------------*/
