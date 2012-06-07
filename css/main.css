@@ -15,7 +15,7 @@ body {
 /*-------------------------------Navigation-------------------------------*/
 
 header {
-	background-color: black;
+	background: url("../images/twgokbkground.gif");
 	width: 790px;
 	height: 50px;
 	padding: 0px;
@@ -29,16 +29,18 @@ nav {
 	overflow: hidden;
 }
 
+
 h1 {
 	float: left;
-	width: 550px;
+	width: 530px;
 	height: 50px;
 	line-height: 50px;
-	margin: 0px;
+	margin-top: 0px;
+	margin-left: 20px;
 	font-family: 'Titan One', cursive, serif;
 	font-weight: 400;
-	font-size: 24px;
-	color: white;
+	font-size: 26px;
+	color: black;
 }
 
 ol {
@@ -95,6 +97,8 @@ li a:active {
 
 #mainimg {
 	float: right;
+	opacity: 0.7;
+	border: black 2px solid
 }
 
 .heading {
