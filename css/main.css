@@ -3,6 +3,8 @@ body {
 	padding: 0px;
 	margin: 0px auto;
 	background-color: black;
+	font-family: 'Port Lligat Sans', sans-serif;
+	font-weight: 400;
 }
 
 #wrapper {
@@ -29,9 +31,10 @@ nav {
 
 h1 {
 	float: left;
-	width: 540px;
-	height: 10px;
-	margin: 7px 5px;
+	width: 550px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0px;
 	font-family: 'Titan One', cursive, serif;
 	font-weight: 400;
 	font-size: 24px;
@@ -92,6 +95,14 @@ li a:active {
 
 #mainimg {
 	float: right;
+}
+
+.heading {
+	margin-left: 10px;
+}
+
+p {
+	margin-left: 10px;
 }
 
 a:link {
