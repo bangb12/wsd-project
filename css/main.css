@@ -66,9 +66,6 @@ ol li a {
 	height: 50px;
 	line-height: 50px;	
 	text-align: center;
-	padding: 0px;
-	margin: 0px;
-	
 }
 
 li a:link {
@@ -106,6 +103,10 @@ li a:active {
 .heading {
 	margin-left: 10px;
 	width: 200px
+}
+
+h2 {
+	text-shadow: 2px 2px 2px #111;
 }
 
 p {
