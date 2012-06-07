@@ -65,20 +65,20 @@ li a {
 	
 }
 
-a:link {
+li a:link {
 	color: white;
 }
 
-a:visited {
+li a:visited {
 	color: silver;
 }
 
-a:hover {
+li a:hover {
 	color: black;
 	background-color: white;
 }
 
-a:active {
+li a:active {
 	color: white;
 	background-color: silver;
 }
@@ -87,7 +87,25 @@ a:active {
 
 
 
-
-
-
 /*-------------------------------MainContent-------------------------------*/
+
+#mainimg {
+	float: right;
+}
+
+a:link {
+	color: gray;
+}
+
+a:visited {
+	color: silver;
+}
+
+ul {
+list-style-type: none;
+overflow: hidden;
+}
+
+ul li {
+float: left;
+}
