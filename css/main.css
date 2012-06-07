@@ -2,6 +2,7 @@ body {
 	width: 790px;
 	padding: 0px;
 	margin: 0px auto;
+	background-color: black;
 }
 
 #wrapper {
@@ -52,7 +53,7 @@ ol li {
 	float: left;
 }
 
-li a {
+ol li a {
 	text-decoration: none;
 	display: block;
 	background-color: black;
@@ -75,7 +76,7 @@ li a:visited {
 
 li a:hover {
 	color: black;
-	background-color: white;
+	background-color: grey;
 }
 
 li a:active {
@@ -104,8 +105,31 @@ a:visited {
 ul {
 list-style-type: none;
 overflow: hidden;
+padding: 25px
 }
 
 ul li {
 float: left;
+margin-left: 7px
+}
+
+
+
+/*-------------------------------Subcontent & Footer-------------------------------*/
+
+#subcontent {
+	background-color: black;
+	border: grey 5px solid
+}
+
+#subcontent h2 {
+	color: white;
+	text-decoration: underline;
+	text-align: center;
+	line-height: 35px;
+}
+	
+#subcontent p {
+	color: white;
+	text-align: center;
 }
