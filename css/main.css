@@ -1,14 +1,14 @@
 body {
-	width: 790px;
+	max-width: 790px;
 	padding: 0px;
 	margin: 0px auto;
 	background-color: black;
-	font-family: 'Port Lligat Sans', sans-serif;
+	font: 100%/1.250 'Port Lligat Sans', sans-serif;
 	font-weight: 400;
 }
 
 #wrapper {
-	width: 790px;
+	width: 100%;
 	background-color: white;
 }
 
@@ -16,15 +16,15 @@ body {
 
 header {
 	background: url("../images/TWGOKbkground.gif");
-	width: 790px;
+	width: 100%; /* 790px */
 	height: 50px;
 	padding: 0px;
-	overflow: hidden;
+	overflow: visible;
 }
 
 nav {
 	background-color: black;
-	width: 240px;
+	width: 30.37974685443%; /* 240px */
 	float: left;
 	overflow: hidden;
 }
@@ -32,37 +32,37 @@ nav {
 
 h1 {
 	float: left;
-	width: 530px;
+	width: 67.088607594937%; /* 530px */
 	height: 50px;
 	line-height: 50px;
 	margin-top: 0px;
-	margin-left: 20px;
+	margin-left: 2.53164556962%; /* 20px */
 	font-family: 'Titan One', cursive, serif;
 	font-weight: 400;
-	font-size: 26px;
+	font-size: 1.625em;
 	color: black;
 }
 
-ol {
+nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0px;
 	padding: 0px;
 }
 
-ol li {
-	width: 120px;
+nav ul li {
+	width: 50%; /* 120px */ 
 	height: 50px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
 }
 
-ol li a {
+nav ul li a {
 	text-decoration: none;
 	display: block;
 	background-color: black;
-	font-size: 14px;
+	font-size: 0.875em;
 	height: 50px;
 	line-height: 50px;	
 	text-align: center;
@@ -92,17 +92,22 @@ li a:active {
 
 /*-------------------------------MainContent-------------------------------*/
 
+section {
+	width: 100%;
+}
+
 #mainimg {
 	float: right;
+	width: 50.632911392405%; /* 400px */
+	height: 454px;
 	opacity: 0.7;
-	border: black 2px solid;
-	margin: -60px 2px;
+	margin: -6.962025316456% 0.253164556962%; /* -55px 2px */
 	padding: 0px;
 }
 
 .heading {
-	margin-left: 10px;
-	width: 200px
+	margin-left: 1.26582278481%; /* 10px */
+	width: 25.316455696203%; /* 200px */
 }
 
 h2 {
@@ -122,21 +127,21 @@ a:visited {
 	color: silver;
 }
 
-ul {
+#subcontent ul {
 	list-style-type: none;
 	overflow: hidden;
 	padding: 25px
 }
 
-ul li {
+#subcontent ul li {
 	float: left;
 	margin-left: 7px
 }
 
 #summary {
 	-moz-column-count: 3;
-	-moz-column-gap: 25px;
-	margin: 0px 5px;
+	-moz-column-gap: 25px; 
+	margin: 0px 0.632911392405%;
 }
 
 
@@ -144,6 +149,7 @@ ul li {
 /*-------------------------------Subcontent & Footer-------------------------------*/
 
 #subcontent {
+	width: 98.73417721519%;
 	background-color: black;
 	border: grey 5px solid
 }
@@ -159,3 +165,7 @@ ul li {
 	color: white;
 	text-align: center;
 }
+
+
+/*-------------------------------Mobile Design Section-------------------------------*/
+
