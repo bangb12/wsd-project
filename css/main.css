@@ -1,14 +1,14 @@
 body {
-	width: 790px;
+	max-width: 790px;
 	padding: 0px;
 	margin: 0px auto;
 	background-color: black;
-	font-family: 'Port Lligat Sans', sans-serif;
+	font: 100%/0.875 'Port Lligat Sans', sans-serif;
 	font-weight: 400;
 }
 
 #wrapper {
-	width: 790px;
+	width: 100%;
 	background-color: white;
 }
 
@@ -16,15 +16,15 @@ body {
 
 header {
 	background: url("../images/TWGOKbkground.gif");
-	width: 790px;
+	width: 100%; /* 790px */
 	height: 50px;
 	padding: 0px;
-	overflow: hidden;
+	overflow: visible;
 }
 
 nav {
 	background-color: black;
-	width: 240px;
+	width: 30.37974685443%; /* 240px */
 	float: left;
 	overflow: hidden;
 }
@@ -32,37 +32,36 @@ nav {
 
 h1 {
 	float: left;
-	width: 530px;
-	height: 50px;
+	width: 67.088607594937%; /* 530px */
 	line-height: 50px;
 	margin-top: 0px;
-	margin-left: 20px;
+	margin-left: 2.53164556962%; /* 20px */
 	font-family: 'Titan One', cursive, serif;
 	font-weight: 400;
-	font-size: 26px;
+	font-size: 1.625em;
 	color: black;
 }
 
-ol {
+nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0px;
 	padding: 0px;
 }
 
-ol li {
-	width: 120px;
+nav ul li {
+	width: 50%; /* 120px */ 
 	height: 50px;
 	padding: 0px;
 	margin: 0px;
 	float: left;
 }
 
-ol li a {
+nav ul li a {
 	text-decoration: none;
 	display: block;
 	background-color: black;
-	font-size: 14px;
+	font-size: 0.875em;
 	height: 50px;
 	line-height: 50px;	
 	text-align: center;
@@ -92,17 +91,22 @@ li a:active {
 
 /*-------------------------------MainContent-------------------------------*/
 
+section {
+	width: 100%;
+}
+
 #mainimg {
 	float: right;
+	max-width: 50.632911392405%; /* 400px */
+	height: 454px;
 	opacity: 0.7;
-	border: black 2px solid;
-	margin: -45px 2px;
+	margin: -5.696202531646% 0.253164556962%; /* -55px 2px */
 	padding: 0px;
 }
 
 .heading {
-	margin-left: 10px;
-	width: 200px
+	margin-left: 1.26582278481%; /* 10px */
+	width: 25.316455696203%; /* 200px */
 }
 
 h2 {
@@ -110,8 +114,7 @@ h2 {
 }
 
 p {
-	margin-left: 10px;
-	font-size: 13px
+	margin-left: 1.26582278481%; /* 10px */
 }
 
 a:link {
@@ -122,21 +125,28 @@ a:visited {
 	color: silver;
 }
 
-ul {
+#subcontent ul {
 	list-style-type: none;
 	overflow: hidden;
-	padding: 25px
+	padding: 3.164556962025%; /* 25px */
 }
 
-ul li {
+#subcontent ul li {
 	float: left;
-	margin-left: 7px
+	margin-left: 0.886075949367%;  /* 7px */
+	width: 21.794871794872%; /* 170px */
+	height: 142px; 
+}
+
+#subcontent ul li img {
+	width: 100%;
+	height: 142px;
 }
 
 #summary {
 	-moz-column-count: 3;
-	-moz-column-gap: 25px;
-	margin: 0px 5px;
+	-moz-column-gap: 25px; 
+	margin: 0px 0.632911392405%;
 }
 
 
@@ -144,6 +154,7 @@ ul li {
 /*-------------------------------Subcontent & Footer-------------------------------*/
 
 #subcontent {
+	width: 98.73417721519%; /* 780px */
 	background-color: black;
 	border: grey 5px solid
 }
@@ -154,8 +165,50 @@ ul li {
 	text-align: center;
 	line-height: 35px;
 }
+
+
 	
 #subcontent p {
 	color: white;
 	text-align: center;
 }
+
+
+
+
+/*-------------------------------Mobile Design Section-------------------------------*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px) { 
+		#mainimg { opacity: 1; }
+		h1 { color: #c30; }
+		#summary p { font-size: 1em }
+		
+	
+}	
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#mainimg { opacity: .7; clear:both; margin-top: 2px; width: 150px; height: 200px }
+		header { margin: 0px; }
+		h1 { color: #c30; width: 100%; font-size: 1.5em;  }
+		nav { float: right; margin-top: -20px }
+		nav ul li a { }
+		#summary { margin-top: 10px }
+		#subcontent ul { width: 100%; height: 300px; padding: 0px }
+		#subcontent ul li { margin-right: 30px; margin-left: 75px; max-width: 200px; min-width: 100px height: 250px; }
+}	
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#mainimg { visibility: hidden; width: 0px}
+		header { margin: 0px; background-color: black; background-image: none; }
+		h1 { color: #c30; width: 100%; font-size: 1.125em;  }
+		h2 { font-size: 1.064em; text-shadow: 0px 0px 0px }
+		nav { visibility: hidden; width: 0px }
+		p { width: 100%; }
+		#subcontent ul { width: 100%; height: 284px; padding: 0px }
+		#subcontent ul li { margin: 0px auto; max-width: 100% }
+		#summary { margin-top: 10px; }
+	
+}	
