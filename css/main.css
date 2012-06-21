@@ -173,9 +173,11 @@ a:visited {
 }
 
 #signup table {
-	border: 1px silver solid;
+	width: 37.974683544304%;       /* 300px */ 
+	border: 0.1em silver solid;
 	height: 300px;
 	text-align: center;
+	float:left;
 }
 
 #signup th {
@@ -189,6 +191,32 @@ a:visited {
 	color: black;
 }
 
+#signup_form {
+	width: 44.303797468354%; /* 350px */
+	float: right;
+	overflow: hidden
+}
+
+form {
+	color:white;
+}
+
+.input_field {
+	margin: 5px 0px 0px 1.898734177215%;
+	width: 57.142857142857%; /* 200px */
+}
+
+footer {
+	clear:both;
+}
+
+h3 {
+	color: white;
+}
+
+input:focus {
+	background: #fc6;	
+}
 
 
 

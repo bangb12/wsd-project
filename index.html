@@ -77,10 +77,41 @@
 				<td>Invitation to the fan club!</td>
 			</tr>
 		</table>
-		
+		<div id="signup_form">
+		<h3> Sign Up! </h3>
 		<form method="get" action="mailto:bangb12@fullsail.edu">
-			<label for="name_first"> First Name </label>
-			<input type="text" name="name_first" id="name_first">
+			<div>
+				<label for="name_first"> First Name </label>
+				<input type="text" name="name_first" id="name_first" class="input_field" />
+			</div>
+			<div>
+				<label for="name_last"> Last Name </label>
+				<input type="text" name="name_last" id="name_last" class="input_field" />
+			</div>
+			<div>
+				<label for="email"> Email Address </label>
+				<input type="text" name="email" id="email" class="input_field" />
+			</div>
+			<div>
+				<label for="updates"> Choose your updates </label>
+			</div>
+			<div>
+				<select name="updates" id="updates">
+					<option> All updates </option> 
+					<option> Only Pictures </option>
+					<option> Only Episodes </option>
+					<option> No Updates </option>
+				</select
+			</div>
+			<div>
+				<input type="checkbox" name="site_updates" id="site_updates" />
+				<p> I wish to be contacted by email with updates to the site</p>
+			</div>
+			<div>
+				<button type="submit" name="submit" class="button">Sign Up</button>
+			</div>
+			</div>
+				
 		</form>
 		</div>
 		
