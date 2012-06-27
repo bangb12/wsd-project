@@ -1,0 +1,76 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 860px;
+	background-color: black;
+}
+
+#wrapper {
+	width: 840px;
+	border: 5px #06c solid;
+	text-align: center;
+	padding: 0px;
+	background-color: #06c;
+	overflow: hidden;
+}
+
+#infobox {
+	float: right;
+	background-color: #6cf;
+	border: 2px black solid;
+	margin-bottom: 3px;
+	margin-right: 5px
+}
+
+h1 {
+	font-size: 1.5em;
+	float: right;
+	margin-right: 402px;
+	margin-bottom: 22px
+}
+
+header {
+	background-color: #06c;
+	width: 840px;
+	margin: 0px
+}
+
+
+
+#intent {
+	width: 410px;
+	margin: 0px 3px;
+	background-color: #fff;
+	float: left;
+	height: 300px;
+	border: 2px black solid
+}
+
+#audience {
+	width: 410px;
+	margin: 0px 3px;
+	background-color: #fff;
+	float: right;
+	height: 300px;
+	border: 2px black solid
+}
+
+#analysis {
+	width: 830px;
+	margin: 10px 3px 0px;
+	border: 2px black solid;
+	background-color: #fff;
+	float: left;
+}
+
+p {
+	margin: 0px 3px
+}
+
+#analysis p {
+	font-size: 20px
+}
+
+li {
+	font-size: 20px
+}
