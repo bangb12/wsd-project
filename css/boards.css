@@ -1,0 +1,21 @@
+#wrapper {
+	margin: auto;
+}
+
+
+div {
+	width: 800px;
+	height: 600px;
+
+}
+
+#firstboard {
+	background: url('../moodboard/mood-board1.png');
+	background-repeat: no-repeat;
+	border-bottom: 10px black solid
+}
+
+#secondboard {
+	background: url('../moodboard/mood-board2.png');
+	background-repeat: no-repeat;
+}
